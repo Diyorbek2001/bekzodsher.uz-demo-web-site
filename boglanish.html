@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="boglanish.css">
+    <link href="aos.css" rel="stylesheet" />
+    <script src="aos.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav">
+          <div class="logo"><img src="img/logo.png" alt="bosh sahifa" /></div>
+          <div class="icon" id="icon"><a href="index.html"><i class="fas fa-home"></i></a></div>
+          <div class="ul" id="ul">
+            <ul>
+              <li>
+               <a onclick="chevron()">Birlashma haqida</a>
+                <i class="fas fa-chevron-down" onclick="chevron()"></i>
+                <div class="ul2">
+                  <ul class="ul1">
+                    <li><a href="bizhaqimizda.html">Biz haqimizda</a></li>
+                    <li><a href="biznimaqsad.html">Bizni maqsad</a></li>
+                    <li><a href="bizniyutuqlarimiz.html">Bizni yutuqlar</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="loyihalar.html">Loyihalar</a></li>
+              <li><a href="xizmatlar.html">Xizmatlar</a></li>
+              <li><a href="boglanish.html">Biz bilan bog'lanish</a></li>
+            </ul>
+          </div>
+          <div class="bos" id="bos">
+            <div class="bos1"></div>
+            <div class="bos2"></div>
+            <div class="bos3"></div>
+          </div>
+        </div>
+      </nav>
+      <section class="boglanish">
+        <h1 data-aos="fade-right"
+        data-aos-offset="150"
+        data-aos-easing="ease-in-sine">Biz bilan bog'lanish</h1>
+        <div class="bbox">
+          <div class="bboxleft" data-aos="zoom-in">
+            <div class="salom" id="salom">
+              <img src="img/operator(1).png" />
+              <h1 id="h1">Salom!</h1>
+            </div>
+            <div class="bbox1">
+              <div class="tel" id="tel">
+                <i class="fas fa-phone-alt" id="fas1"></i>
+                <a href="#">(99) 473 44 49</a>
+              </div>
+              <div class="email" id="email">
+                <i class="fas fa-phone-alt" id="fas2"></i>
+                <a href="#">dilmurod@mail.com</a>
+              </div>
+              <div class="jonatish">
+                <div class="input">
+                  <i class="fas fa-address-book"></i>
+                  <input type="text" placeholder="Ismingiz" />
+                </div>
+                <div class="input">
+                  <i class="fas fa-mobile-alt"></i>
+                  <input type="text" placeholder="Tel raqamingiz" />
+                </div>
+                <div class="input">
+                  <i class="fas fa-at"></i>
+                  <input type="text" placeholder="Email" />
+                </div>
+                <div class="input">
+                  <i class="fas fa-envelope-open-text"></i>
+                  <textarea
+                    id="texta"
+                    cols="60"
+                    rows="7"
+                    placeholder="Xabaringiz"
+                  ></textarea>
+                </div>
+                <button><h1>Xabarni jo'natish</h1></button>
+              </div>
+            </div>
+          </div>
+          <div class="bboxright" data-aos="zoom-in">
+            <div class="xarita">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48543.698176468206!2d68.74913624390332!3d40.497800184471224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b2068ad8d702f7%3A0x5395d8cf131294b1!2z0JPRg9C70LjRgdGC0LDQvSwg0KPQt9Cx0LXQutC40YHRgtCw0L0!5e0!3m2!1sru!2s!4v1637342959164!5m2!1sru!2s"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+            <div class="manzil">
+              <div class="manzil1">
+                <i class="fas fa-map-marker-alt"></i>
+                <h1>Manzil:</h1>
+                <p>Sirdaryo viloyati Guliston shahar Birlashgan ko'chasi 4/1</p>
+              </div>
+              <div class="ish">
+                <i class="far fa-calendar-alt"></i>
+                <h1>Ish vaqti:</h1>
+                <p>
+                  Dush:Shan 9:00-20:00 <br />
+                  Yakshanba 9:00-16:00
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <h1>Bekzodsher birlashmasi / 2020</h1>
+      </section>
+    <script>
+        AOS.init();
+    </script>
+    <script src="./js/app.js"></script>
+</body>
+</html>

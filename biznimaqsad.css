@@ -1,0 +1,72 @@
+nav {
+    margin-top: 0px;
+}
+.bizhaqimizda {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background: url(../img/bakcground.paper.jpg);
+}
+.bizhaqimizda .haqimizda {
+    width: 100%;
+    height: 95%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.bizhaqimizda .haqimizda > h1 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(12, 12, 94);
+}
+.bizhaqimizda .haqimizda .birlashma {
+    width: 94%;
+    height: 95%;
+    position: relative;
+    box-shadow: 0 0 16px #000;
+    margin: auto;
+    padding: 24px;
+}
+.bizhaqimizda .haqimizda .birlashma img:nth-child(1){
+    width: 42%;
+    height: 18%;
+    position: relative;
+    display: flex;
+    float: right;
+    margin: 20px;
+    border-top-left-radius: 17% 13%;
+    border-bottom-right-radius: 13% 17%;
+    border: 7px solid white;
+    filter: drop-shadow(0 0 10px #333);
+}
+.bizhaqimizda .haqimizda .birlashma .img{
+    width: 42%;
+    height: 18%;
+    position: relative;
+    display: flex;
+    float: left ;
+    margin: 20px;
+    border-top-left-radius: 17% 13%;
+    border-bottom-right-radius: 13% 17%;
+    border: 7px solid white;
+    filter: drop-shadow(0 0 10px #333);
+}
+.bizhaqimizda .haqimizda .birlashma .matn1 , .bizhaqimizda .haqimizda .birlashma .matn2 {
+    color: #000000;
+    font-family: cursive;
+    font-size: 20px;
+    word-spacing: 3px;
+    line-height: 150%;
+}
+@media (max-width:890px) {
+    .bizhaqimizda .haqimizda .birlashma img:nth-child(1) , .bizhaqimizda .haqimizda .birlashma .img {
+        width: 97%;
+        height: 20%;
+        margin: 10px;
+    }
+}
